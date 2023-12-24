@@ -1,0 +1,42 @@
+Task 1: Data Loading:
+1-Read the csv file and load it into a pandas dataframe.
+2-Display the first five rows of your dataframe.
+3-Display the data types of the columns.
+
+Task 2a: Data Cleaning:
+1-Drop some of the unwanted columns. These include host id, id, country and country code from the dataset.
+2-State the reason for not including these :columns for your Data Analytics.
+
+Task 2b: Data Cleaning:
+1-Check for missing values in the dataframe and display the count in ascending order. If the values are missing, impute the values as per the datatype of the columns.
+2-Check whether there are any duplicate values in the dataframe and, if present, remove them.
+3-Display the total number of records in the dataframe before and after removing the duplicates.
+
+Task 3: Data Transformation:
+1-Rename the column availability 365 to days_booked
+2-Convert all column names to lowercase and replace the spaces in the column names with an underscore "_".
+3-Remove the dollar sign and comma from the columns price and service_fee. If necessary, convert these two columns to the appropriate data type.
+
+Task 4: Exploratory Data Analysis:
+1-List the count of various room types avaliable in the dataset.
+2-Which room type has the most strict cancellation policy?
+3-List the average price per neighborhood group, and highlight the most expensive neighborhood to rent from.
+
+Task 5a: Data Visualization:
+
+1-List the count of various room types avaliable with Airnb
+2-Which room type adheres to more strict cancellation policy
+3-List the prices by neighborhood group and also mention which is the most expensive neighborhood group for rentals
+4-List the top 10 neighborhoods in the increasing order of their price with the help of a horizontal bar graph. Which is the cheapest neighborhood.
+5-List the neighborhoods which offer short term rentals within 10 days. Illustrate with a bar graph
+6-List the prices with respect to room type using a bar graph and also state your inferences.
+7-Create a pie chart that shows distribution of booked days for each neighborhood group .Which neighborhood has the highest booking percentage.
+
+Task 5b: Data Visualization:
+1-Does service price and room price have an impact on each other. Illustrate this relationship with a scatter plot and state your inferences
+2-Using a line graph show in which year the maximum construction of rooms took place.
+
+Task 5c: Data Visualization:
+1-With the help of box plots illustrate the following
+2-Effect of Review Rate number on price
+3-Effect of host identity verified on price
